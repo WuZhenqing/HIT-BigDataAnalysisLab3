@@ -1,0 +1,37 @@
+boltons @ file:///croot/boltons_1677628692245/work
+brotlipy==0.7.0
+certifi @ file:///croot/certifi_1671487769961/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+conda==23.3.1
+conda-content-trust @ file:///tmp/abs_5952f1c8-355c-4855-ad2e-538535021ba5h26t22e5/croots/recipe/conda-content-trust_1658126371814/work
+conda-package-handling @ file:///croot/conda-package-handling_1672865015732/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1670508151586/work
+cryptography @ file:///croot/cryptography_1677533068310/work
+idna @ file:///croot/idna_1666125576474/work
+interchange==2021.0.4
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+monotonic==1.6
+numpy==1.24.3
+packaging @ file:///croot/packaging_1678965309396/work
+pandas==2.0.1
+pansi==2020.7.3
+pluggy @ file:///tmp/build/80754af9/pluggy_1648024709248/work
+py2neo==2021.2.3
+pycosat @ file:///croot/pycosat_1666805502580/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.15.1
+pyOpenSSL @ file:///croot/pyopenssl_1677607685877/work
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+python-dateutil==2.8.2
+pytz==2023.3
+requests @ file:///croot/requests_1678709721434/work
+ruamel.yaml @ file:///croot/ruamel.yaml_1666304550667/work
+ruamel.yaml.clib @ file:///croot/ruamel.yaml.clib_1666302247304/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+toolz @ file:///croot/toolz_1667464077321/work
+tqdm @ file:///croot/tqdm_1679561862951/work
+tzdata==2023.3
+urllib3 @ file:///croot/urllib3_1680254681959/work
+zstandard @ file:///croot/zstandard_1677013143055/work

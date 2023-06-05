@@ -3,11 +3,11 @@ from py2neo import Node, Graph, Relationship
 
 graph = Graph("http://localhost:7474/", auth=("neo4j", "12345678"), name="neo4j")
 
-featnames_file_name = "0.featnames"
-feat_file_name = "0.feat"
-circles_file_name = "0.circles"
-edge_file_name = "0.edges"
-egofeat_file_name = "0.egofeat"
+featnames_file_name = "data/0.featnames"
+feat_file_name = "data/0.feat"
+circles_file_name = "data/0.circles"
+edge_file_name = "data/0.edges"
+egofeat_file_name = "data/0.egofeat"
 
 def read_data():
     feature_list = open(featnames_file_name, 'r').readlines()
