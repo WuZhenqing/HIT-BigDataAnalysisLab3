@@ -9,35 +9,7 @@ circles_file_name = "data/0.circles"
 edge_file_name = "data/0.edges"
 egofeat_file_name = "data/0.egofeat"
 
-def read_data():
-    feature_list = open(featnames_file_name, 'r').readlines()
-    feature_count = len(feature_list)
 
-    feature_data = pd.DataFrame(columns=["num", "name", "data"])
-    feature_name = set()
-
-    for line in feature_list:
-        contents = line.split(";")
-        if len(contents) == 2:
-            first = contents[0].split(" ")
-            second = contents[1].split(" ")
-            temp = pd.DataFrame({"num": [int(first[0])], "name": [first[1]], "data": [int(second[2])]})
-            feature_data = pd.concat([feature_data, temp], ignore_index=True)
-            feature_name.add(first[1])
-        elif len(contents) == 3:
-            first = contents[0].split(" ")
-            third = contents[2].split(" ")
-            name = first[1] + "_" + contents[1]
-            temp = pd.DataFrame({"num": [int(first[0])], "name": [name], "data": [int(third[2])]})
-            feature_data = pd.concat([feature_data, temp], ignore_index=True)
-            feature_name.add(name)
-        elif len(contents) == 4:
-            first = contents[0].split(" ")
-            fourth = contents[3].split(" ")
-            name = first[1] + "_" + contents[1] + "_" + contents[2]
-            temp = pd.DataFrame({"num": [int(first[0])], "name": [name], "data": [int(fourth[2])]})
-            feature_data = pd.concat([feature_data, temp], ignore_index=True)
-            feature_name.add(name)
 
     node_feature_list = open(feat_file_name, 'r').readlines()
     node_circle_list = [[] for line in node_feature_list]
